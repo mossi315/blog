@@ -1,0 +1,73 @@
+ @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Outfit:wght@700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background: hsl(0, 0%, 100%);
+    max-width: 380px;
+    height: 515px;
+    padding: 1.3em;
+    border-radius: 15px;
+    outline: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px black ;
+    margin: 1.5em;
+}
+
+.card > img {
+    display: block;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h2 {
+    font-size:  1rem;
+    background-color: hsl(47, 88%, 63%);
+    width: max-content;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+    padding: 0.3em 0.5em; 
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin: 0.6em 0;
+}
+
+.date{
+    font-weight: 500;
+}
+
+p:last-of-type {
+    color: hsl(0, 0%, 50%);
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.avatar > img {
+    width: 33px;
+}
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 1.6em;
+}
+
+.avatar > p {
+    margin-left: 0.5em;
+    color: hsl(0, 0%, 7%);
+    font-weight: bold;
+}
